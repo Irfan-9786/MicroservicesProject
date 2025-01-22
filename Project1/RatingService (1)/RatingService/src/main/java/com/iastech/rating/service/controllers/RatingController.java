@@ -26,7 +26,7 @@ public class RatingController {
 		Rating rating2 = ratingServices.createRating(rating);
 		//System.out.println("just checking");
 //123
-//345
+//0000
 		return ResponseEntity.status(HttpStatus.CREATED).body(rating2);
 	}
 
