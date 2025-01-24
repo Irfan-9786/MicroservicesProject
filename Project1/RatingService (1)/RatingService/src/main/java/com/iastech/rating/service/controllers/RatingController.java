@@ -28,6 +28,7 @@ public class RatingController {
 //123
 //0000
 //4444
+//2222
 		return ResponseEntity.status(HttpStatus.CREATED).body(rating2);
 	}
 
